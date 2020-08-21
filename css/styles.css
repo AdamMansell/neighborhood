@@ -7,20 +7,15 @@
   margin: 0 auto;
 }
 
-h1 {
-  color: darkslategrey;
-  font-family: cursive;
-  font-size: 60px;
-  margin: 25px 25px 15px 0px;
-}
-
 #resultArray {
-  color: darkslategrey;
+  color: lightslategray;
+  font-family: cursive;
+  margin: 20px;
 }
 
 .resulth3 {
-  color: darkslategrey;
-  background-color: #D4D2C7;
+  color: lightslategray;
+  background-color: #DBD4C2;
   width: 950px;
   opacity: 70px;
   border-radius: 4px;
@@ -37,3 +32,33 @@ h1 {
   top: 0;
   left: 0;
 }
+
+/* -------------- Title Animation -------------- */
+
+.wrapper {
+  text-shadow: lightslategray 5px 2px 1px;
+	text-align: center;
+  color: #fff;
+  font-size: 55px;
+  margin: 25px 25px 15px 0px;
+  font-family: cursive;
+  font-weight: 700;
+  background: linear-gradient(to right, #A4B7C9 10%, #fff 50%, #C7D2DD 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 7s linear infinite;
+  display: inline-block;
+	}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
