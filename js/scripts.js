@@ -3,9 +3,14 @@ $(document).ready(function () {
     event.preventDefault();
     let givenString = $("input#range").val();
     let givenNum = parseInt(givenString);
-    let arrayRange = []
-    arrayRange.push(givenNum);
-    $(".resulth3").text(arrayRange);
+    for (i = 0; i < givenNum; i++) {
+      let arrayRange = [];
+      arrayRange[i] = i;
+      console.log(arrayRange[i] + " ");
+      $(".resulth3").text(arrayRange);
+  }
+    // arrayRange.push(givenNum);
+    
     $("#result").show();
 
     // function toArray(sentence) {
