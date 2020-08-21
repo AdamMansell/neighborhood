@@ -11,11 +11,11 @@ $(document).ready(function () {
 
     console.log(arrayRange);
 
-    for (i = 0; i <= arrayRange; i++) {
-      console.log('here');
-      if (/[0-1]/.test(arrayRange[i]) == true) {
-        console.log("HERE");
-        replace(arrayRange[i], "Beep!");
+
+    for (i = 0; i <= arrayRange.length; i++) {
+      if (/1/.test(arrayRange[i]) == true) {
+        arrayRange.splice(arrayRange[i], 1, "Beep!");
+        $(".resulth3").text(arrayRange);
       }
     }
 
