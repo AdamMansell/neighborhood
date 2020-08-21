@@ -19,6 +19,11 @@ Right click one file at a time & copy it's path.
 Open your prefered internet browser and paste the file path to view the file.
 (If using mac, after pasting link in search bar, check for "file" dropdown option before hitting return).
 
+## Specs
+Spec: The first for loop returns an array of numbers from 0 to the user's inputted number.
+- Input: "5"
+- Output: [0,1,2,3,4,5]
+
 ## Technologies Used
 For this exercise I used html, css, and js.
 
