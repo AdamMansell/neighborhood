@@ -1,4 +1,4 @@
-# Adam Mansell's neighborhood Project
+# Adam Mansell's Neighborhood Project
 
 ### HTML, CSS, & JS Friday Project for Epicodus, 8/21/2020
 
