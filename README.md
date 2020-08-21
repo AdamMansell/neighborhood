@@ -38,6 +38,16 @@ ________________________________
 Spec: The second else if will change any element with the value of 3 to "Won't you be my neighbor?", any element with the value of 2 to "Boop!", and any element with the value of 1 to "Beep!". It will also allow the third exception to take priority over the 2nd.
 - Input: "13"
 - Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]<br>
+________________________________
+
+Spec: If a string is typed into the input field and is submited, the badResult div will appear notifying the user that they must type a number instead.
+- Input: "thirteen"
+- Output: "Input Only Accepts Numbers"<br>
+________________________________
+
+Spec: If the input field is left blank and submited, the badResult div will appear notifying the user that they must type a number instead.
+- Input: ""
+- Output: "Input Only Accepts Numbers"<br>
 
 ## Technologies Used
 For this exercise I used html, css, and js.
