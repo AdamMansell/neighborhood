@@ -8,10 +8,23 @@
 }
 
 h1 {
+  color: darkslategrey;
   font-family: cursive;
   font-size: 60px;
   margin: 25px 25px 15px 0px;
 }
+
+#resultArray {
+  color: darkslategrey;
+}
+
+.resulth3 {
+  color: darkslategrey;
+  background-color: #D4D2C7;
+  opacity: 70px;
+  border-radius: 4px;
+}
+
 #video {
   object-fit: cover;
   width: 100vw;
