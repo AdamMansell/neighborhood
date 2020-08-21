@@ -1,4 +1,4 @@
-#result {
+#result, #badResult {
   display: none;
 }
 
@@ -11,6 +11,17 @@
   color: lightslategray;
   font-family: cursive;
   margin: 20px;
+}
+
+#badResult {
+  font-family: cursive;
+  color: lightslategray;
+  background-color: #DBD4C2;
+  width: 950px;
+  opacity: 70px;
+  border-radius: 4px;
+  margin: 20px;
+  width: 250px;
 }
 
 .resulth3 {
