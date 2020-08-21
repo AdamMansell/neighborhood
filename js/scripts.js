@@ -8,10 +8,6 @@ $(document).ready(function () {
       arrayRange.push(i);
       $(".resulth3").text(arrayRange);
     }
-
-    console.log(arrayRange);
-
-
     for (i = 0; i <= arrayRange.length; i++) {
       if ((/1/.test(arrayRange[i]) == true) && (/2/.test(arrayRange[i]) == false) && (/3/.test(arrayRange[i]) == false)) {
         arrayRange.splice(arrayRange[i], 1, "Beep!");
@@ -24,18 +20,6 @@ $(document).ready(function () {
         $(".resulth3").text(arrayRange);
       }
     }
-
     $("#result").show();
-
-    // function toArray(sentence) {
-    //   if (/[1]/i.test(sentence)) {
-    //     sentence += "way";
-    //     return sentence;
-    //   } else {
-    //     return sentence;
-    //   }
-    // }
-    // console.log(vowBegin("octopus"));
-    // event.preventDefault();
   });
 });
