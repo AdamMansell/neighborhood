@@ -21,10 +21,14 @@ h1 {
 .resulth3 {
   color: darkslategrey;
   background-color: #D4D2C7;
+  width: 950px;
   opacity: 70px;
   border-radius: 4px;
 }
 
+#range {
+  width: 200px;
+}
 #video {
   object-fit: cover;
   width: 100vw;
