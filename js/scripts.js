@@ -7,9 +7,18 @@ $(document).ready(function () {
     for (i = 0; i <= givenNum; i++) {
       arrayRange.push(i);
       $(".resulth3").text(arrayRange);
-  }
-    // arrayRange.push(givenNum);
-    
+    }
+
+    console.log(arrayRange);
+
+    for (i = 0; i <= arrayRange; i++) {
+      console.log('here');
+      if (/[0-1]/.test(arrayRange[i]) == true) {
+        console.log("HERE");
+        replace(arrayRange[i], "Beep!");
+      }
+    }
+
     $("#result").show();
 
     // function toArray(sentence) {
