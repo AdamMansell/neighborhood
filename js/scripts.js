@@ -3,10 +3,9 @@ $(document).ready(function () {
     event.preventDefault();
     let givenString = $("input#range").val();
     let givenNum = parseInt(givenString);
-    for (i = 0; i < givenNum; i++) {
-      let arrayRange = [];
-      arrayRange[i] = i;
-      console.log(arrayRange[i] + " ");
+    let arrayRange = [];
+    for (i = 0; i <= givenNum; i++) {
+      arrayRange.push(i);
       $(".resulth3").text(arrayRange);
   }
     // arrayRange.push(givenNum);
