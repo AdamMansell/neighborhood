@@ -13,8 +13,14 @@ $(document).ready(function () {
 
 
     for (i = 0; i <= arrayRange.length; i++) {
-      if (/1/.test(arrayRange[i]) == true) {
+      if ((/1/.test(arrayRange[i]) == true) && (/2/.test(arrayRange[i]) == false) && (/3/.test(arrayRange[i]) == false)) {
         arrayRange.splice(arrayRange[i], 1, "Beep!");
+        $(".resulth3").text(arrayRange);
+      } else if ((/2/.test(arrayRange[i]) == true) && (/3/.test(arrayRange[i]) == false)) {
+        arrayRange.splice(arrayRange[i], 1, "Boop!");
+        $(".resulth3").text(arrayRange);
+      } else if (/3/.test(arrayRange[i]) == true) {
+        arrayRange.splice(arrayRange[i], 1, "Won't you be my neighbor?");
         $(".resulth3").text(arrayRange);
       }
     }
