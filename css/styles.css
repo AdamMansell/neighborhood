@@ -2,9 +2,21 @@
   display: none;
 }
 
-#myVideo {
-  right: 0;
-  bottom: 0;
-  max-width: 100%;
-  max-height: 100%;
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 60px;
+  margin: 25px 25px 15px 0px;
+}
+#video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
