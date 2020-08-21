@@ -22,7 +22,19 @@ Open your prefered internet browser and paste the file path to view the file.
 ## Specs
 Spec: The first for loop returns an array of numbers from 0 to the user's inputted number.
 - Input: "5"
-- Output: [0,1,2,3,4,5]
+- Output: [0,1,2,3,4,5]<br>
+
+Spec: The first if statement will change any element with the value of 1 to "Beep!", unless it conatains the value 2, or 3 in it.
+- Input: "12"
+- Output: [0, "Beep!", 2, 3, 4, 5, 6, 8, 9, "Beep!", "Beep!", 12]<br>
+
+Spec: The first else if will change any element with the value of 2 to "Boop!", and any element with the value of 1 to "Beep!". It will also allow the second exception to take priority over the 1st.
+- Input: "12"
+- Output: [0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!"]<br>
+
+Spec: The second else if will change any element with the value of 3 to "Won't you be my neighbor?", any element with the value of 2 to "Boop!", and any element with the value of 1 to "Beep!". It will also allow the third exception to take priority over the 2nd.
+- Input: "13"
+- Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]<br>
 
 ## Technologies Used
 For this exercise I used html, css, and js.
